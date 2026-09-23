@@ -13,7 +13,8 @@ import bcchapi
 #  CONEXIÓN API
 # ------------------------------------------------------------------------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RESPALDO_DIR = os.path.join(BASE_DIR, "Respaldo local")
+#RESPALDO_DIR = os.path.join(BASE_DIR, "Respaldo local")
+RESPALDO_DIR = os.path.join(BASE_DIR, "rawdata")
 
 @st.cache_data
 def cargar_datos_locales():
