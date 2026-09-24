@@ -221,7 +221,7 @@ with st.sidebar.container(border=True):
         )
         
         monto_formateado = f"{monto_base:,.0f}"
-        st.markdown(f"<p style='font-size: 14px; color: #5f6368; margin-top: -10px; margin-bottom: 10px;'>Valor seleccionado: <b>$ {monto_formateado} CLP</b></p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='font-size: 14px; color: #5f6368; margin-top: -10px; margin-bottom: 10px;'>Valor seleccionado: <b>$ {monto_formateado} UF</b></p>", unsafe_allow_html=True)
 
         frecuencia_meses = st.selectbox("Frecuencia de Reajuste (meses)", [3, 6, 12], index=1)
 
